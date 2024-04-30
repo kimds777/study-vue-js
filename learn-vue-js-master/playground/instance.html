@@ -12,10 +12,29 @@
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
+        // var options = {
+        //     el: '#app',
+        //     data: {
+        //         message: 'ji'
+        //     },
+        //     methods: {
+                
+        //     }
+        // };
+
+        // var vm = new Vue(options); 
+        // --> 객체를 변수로 정의하여  Vue에 담는것보단 객체를 Vue에 바로 넣어주는것이 좋다
+
         var vm = new Vue({
             el: '#app',
             data: {
                 message: 'ji'
+            },
+            methods: {
+                
+            },
+            created: function() {
+
             }
         });
     </script>
